@@ -55,6 +55,7 @@ npm install hubspot
 
 ### Deals
 
+    client.deals.getAll(ops, cb)
     client.deals.getRecentyModified(opts, cb)
     client.deals.getRecentlyCreated(opts, cb)
     client.deals.getById(id, cb)
